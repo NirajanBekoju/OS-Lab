@@ -1,0 +1,298 @@
+              
+\documentclass[journal,onecolumn]{IEEEtran}
+\setlength{\parindent}{0pt}
+
+\ifCLASSINFOpdf
+ 
+\else
+ 
+\fi
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+\title{LAB 2 : SHELL PROGRAMMING}
+
+\author{Nirajan~Bekoju~PUL076BCT039}
+
+% The paper headers
+\markboth{LAB 2 : SHELL PROGRAMMING}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+
+% make the title area
+\maketitle
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+\IEEEPARstart{S}{hell} programming is the process of writing computer programs that are executed in a shell environment, typically a Unix or Linux shell. A shell is a command-line interface that allows users to interact with the operating system by executing commands and scripts.
+
+Shell programming can be used to automate repetitive tasks, perform system administration tasks, and create complex scripts that can be used to manipulate data and perform various tasks. Shell scripts are often used to automate tasks such as backups, file and directory management, system monitoring, and software installation.
+
+The most commonly used shells for programming are the Bash shell (which is the default shell on most Linux distributions) and the Zsh shell. Shell programming requires knowledge of the shell's syntax and built-in commands, as well as familiarity with other programming concepts such as variables, control structures, and functions.
+
+In addition to the built-in commands provided by the shell, shell programming also supports the use of external commands and utilities that can be executed from within the shell script. Shell scripts can also accept command-line arguments and input from users, making them highly customizable and flexible.
+
+Overall, shell programming is a powerful tool for automating tasks and managing systems in a Unix or Linux environment, and is an essential skill for system administrators, developers, and anyone who works with command-line interfaces.
+
+
+
+
+
+\section{Concatenation of two strings}
+\textbf{Aim :} To write a shell program to concatenate two strings.
+
+\textbf{Algorithm :}
+\begin{list}{}{}
+  \item Step1: Enter into the vi editor and go to the insert mode for entering the code
+  \item Step2: Read the first string.
+  \item Step3: Read the second string
+  \item Step4: Concatenate the two strings
+  \item Step5: Enter into the escape mode for the execution of the result and verify the output
+\end{list}
+
+
+\textbf{Program :}
+\begin{verbatim}
+  #!/bin/sh
+
+  echo "enter the first string"
+  read str1
+  
+  echo "enter the second string"
+  read str2
+  
+  echo "Concatenated string : $str1 $str2"
+\end{verbatim}
+
+\textbf{Output :}
+\begin{verbatim}
+  enter the first string
+  luffy
+  enter the second string
+  zoro
+  Concatenated string : luffy zoro
+\end{verbatim}
+
+\section{Comparision of two strings}
+\textbf{Aim : } To write a shell program to compare the two strings.
+
+\textbf{Algorithm : }
+\begin{list}{}{}
+  \item Step1: Enter into the vi editor and go to the insert mode for entering the code
+  \item Step2: Read the first string.
+  \item Step3: Read the second string
+  \item Step4: Compare the two strings using the if loop
+  \item Step5: If the condition satisfies then print that two strings are equal else print
+        two strings are not equal.
+  \item Step6: Enter into the escape mode for the execution of the result and verify the output
+\end{list}
+
+\textbf{Program : }
+\begin{verbatim}
+  #!/bin/sh
+  echo "enter first string"
+  read str1
+  echo "enter second string"
+  read str2
+
+  if [ $str1 = $str2 ] 
+  then
+    echo "strings are equal."
+  else
+    echo "strings are not equal."
+  fi
+\end{verbatim}
+
+\textbf{Output:}
+\begin{verbatim}
+  enter first string
+  lion
+  enter second string
+  lion
+  strings are equal.
+\end{verbatim}
+
+
+\section{Maximum of three numbers}
+\textbf{Aim : } To write a shell program to find the greatest of three numbers.
+
+\textbf{Algorithm : }
+\begin{list}{}{}
+  \item Step1: Declare the three variables.
+  \item Step2: Check if A is greater than B and
+        C.
+  \item Step3: If so print A is greater.
+  \item Step4: Else check if B is greater than
+        C.
+  \item Step5: If so print B is greater.
+  \item Step6: Else print C is greater.
+\end{list}
+
+\textbf{Program : }
+\begin{verbatim}
+  #!/bin/sh
+  echo "Enter first number"
+  read a
+  echo "Enter second number"
+  read b
+  echo "Enter third number"
+  read c
+
+  if [ $a -gt $b -a $a -gt $c ]
+  then
+    echo "$a is greater than $b and $c"
+  elif [ $b -gt $a -a $b -gt $c ]
+  then
+    echo "$b is greater than $a and $c"
+  elif [ $c -gt $a -a $c -gt $b ]
+  then
+    echo "$c is greater than $a and $b"
+  else
+    echo "All are equal"
+  fi
+\end{verbatim}
+
+\textbf{Ouput :}
+\begin{verbatim}
+  Enter first number
+  15
+  Enter second number
+  39
+  Enter third number
+  7 
+  39 is greater than 15 and 7
+\end{verbatim}
+
+\section{Fibonacci Series}
+\textbf{Aim : } To write a shell program to generate fibonacci series.
+
+\textbf{Algorithm : }
+\begin{list}{}{}
+  \item Step 1 : Initialise a to 0 and b to
+        1.
+  \item Step 2 : Print the values of 'a'
+        and 'b'.
+  \item Step 3 : Add the values of 'a' and 'b'. Store the added value in
+        variable 'c'.
+  \item Step 4 : Print the value of 'c'.
+  \item Step 5 : Initialise 'a' to 'b' and 'b' to 'c'.
+  \item Step 6 : Repeat the steps 3,4,5 till the value of 'a' is less than 10.
+\end{list}
+
+\textbf{Program : }
+\begin{verbatim}
+  #!/bin/sh
+  a=0
+  b=1
+  echo "Enter n for series : "
+  read n
+
+  count=0
+
+  echo "Printing the fibonacci series"
+
+  while [ $count -lt $n ]
+  do
+    echo -n "$a "
+    count=`expr $count + 1`
+    c=`expr $a + $b`
+    a=$b
+    b=$c
+  done
+  echo " "
+\end{verbatim}
+
+\textbf{Output : }
+\begin{verbatim}
+  Enter n for series : 
+  14
+  Printing the fibonacci series
+  0 1 1 2 3 5 8 13 21 34 55 89 144 233  
+\end{verbatim}
+
+\section{Arithmetic Operations using Case}
+\textbf{Aim : } To write a shell program to perform the arithmetic operations using case.
+
+\textbf{Algorithm : }
+\begin{list}{}{}
+  \item Step 1 : Read the input variables and assign the value
+  \item Step 2 : Print the various arithmetic operations which we are going to perform
+  \item Step 3 : Using the case operator assign the various functions for the arithmetic operators.
+  \item Step 4 : Check the values for all the corresponding operations.
+  \item Step 5 : Print the result and stop the execution.
+\end{list}
+
+
+\textbf{Program : }
+\begin{verbatim}
+  #!/bin/sh
+  echo "Enter first number"
+  read a
+  echo "Enter second number"
+  read b
+
+  echo "Operation type"
+  read o
+
+  case "$o" in 
+    "+") echo "Addition"
+    c=`expr $a + $b`
+    echo "$a + $b = $c"
+    ;;
+
+    "-") echo "Subtraction"
+    c=`expr $a - $b`
+    echo "$a - $b = $c"
+    ;;
+
+    "/") echo "Divide"
+    c=`expr $a / $b`
+    echo "$a / $b = $c"
+    ;;
+
+    "*") echo "Multiply"
+    c=`expr $a \* $b`
+    echo "$a * $b = $c"
+    ;;
+
+    "%") echo "Modulo division"
+    c=`expr $a % $b`
+    echo "$a % $b = $c"
+    ;;
+  esac
+\end{verbatim}
+
+\textbf{Ouput : }
+\begin{verbatim}
+  Enter first number
+  15
+  Enter second number
+  39
+  Operation type
+  -
+  Subtraction
+  15 - 39 = -24
+\end{verbatim}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Conclusion}
+In this lab, we successfully performed shell programming for 5 programs and got the expected result. We learnt the basic of shell programming and solve problems like concatenating and comparing strings, finding greater number among three numbers, generating fibonacci series upto $n^{th}$ term and performing arithmetic operations as per choice of user.
+
+
+\end{document}
