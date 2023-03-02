@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  1 MAR 2023 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  1 MAR 2023 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_2/lab_report_2.tex"
-(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_2/lab_report_2.tex
+**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.tex"
+(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -107,8 +107,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count182
 \l__pdf_internal_box=\box47
-) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_2/lab_report_2.aux)
-\openout1 = `lab_report_2.aux'.
+) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.aux)
+\openout1 = `lab_report_3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -126,28 +126,30 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 58 (exact).
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 295.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 295.
- [4] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_2/lab_report_2.aux) ) 
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.aux) ) 
 Here is how much of TeX's memory you used:
- 1229 strings out of 481239
- 24612 string characters out of 5920377
- 260235 words of memory out of 5000000
- 16557 multiletter control sequences out of 15000+600000
- 563211 words of font info for 76 fonts, out of 8000000 for 9000
+ 1248 strings out of 481239
+ 24891 string characters out of 5920377
+ 262235 words of memory out of 5000000
+ 16574 multiletter control sequences out of 15000+600000
+ 562894 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 27i,5n,21p,496b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_2/lab_report_2.pdf" (4 pages, 63134 bytes).
+ 27i,5n,21p,568b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.pdf" (5 pages, 64748 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
