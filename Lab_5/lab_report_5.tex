@@ -1,5 +1,6 @@
               
 \documentclass[journal,onecolumn]{IEEEtran}
+\usepackage{multicol}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 
@@ -17,7 +18,28 @@
 
 \title{LAB 5 : Linux Command Line Utilities Simulator in C Programming}
 
-\author{Nirajan~Bekoju \\ PUL076BCT039 \\ $2^{nd}$ March, 2023}
+\author{
+  \begin{multicols}{2}
+    \centering
+    Nirajan Bekoju\\
+    PUL076BCT039\\
+    076bct039.nirajan@pcampus.edu.np\\
+    \columnbreak
+    Nishant Luitel\\
+    PUL076BCT041 \\
+    076bct041.nishant@pcampus.edu.np \\
+  \end{multicols}
+  \begin{multicols}{2}
+    \centering
+    Nabin Da Shrestha\\
+    PUL076BCT037 \\
+    076bct037.nabin@pcampus.edu.np \\
+    \columnbreak
+    Prakash Chaulagain \\
+    PUL076BCT045 \\
+    076bct045.prakash@pcampus.edu.np
+  \end{multicols}
+}
 
 % The paper headers
 \markboth{LAB 5 : Linux Command Line Utilities Simulator in C Programming}%
@@ -110,27 +132,6 @@ The folder structure for "search" folder is as follow:
 
 
 \section{Conclusion}
-In this lab, we studied how we can simulate the Linux Command Line Utilities usinig C programming. And we also learn the basic of dirent in c programming.
-
-In C programming language, the dirent.h header file provides a standard interface for accessing directory entries. The directory entry structure, struct dirent, is defined in this header file.
-
-The struct dirent contains information about each directory entry, including the file name, the file type, and the file size. Here's an example of the struct definition:
-
-\begin{verbatim}
-  struct dirent {
-    ino_t          d_ino;       /* inode number */
-    off_t          d_off;       /* offset to the next dirent */
-    unsigned short d_reclen;    /* length of this record */
-    unsigned char  d_type;      /* type of file; not supported by 
-                                    all file system types */
-    char           d_name[256]; /* filename */
-  };
-\end{verbatim}
-
-The d$\_$ino field is the inode number of the directory entry, which is a unique identifier for the file within the file system. The d$\_$off field is the offset to the next directory entry in the directory stream. The d$\_$reclen field is the length of the directory entry record, and the d$\_$type field indicates the type of the file, such as a regular file, a directory, a symbolic link, or other file types. The d$\_$name field is a character array that contains the name of the directory entry. It is limited to 256 characters to ensure compatibility across different file systems.
-
-The dirent.h header file provides a set of functions for working with directory entries, including opendir(), readdir(), and closedir(). These functions allow you to open a directory stream, read the directory entries, and close the directory stream when you are done.
-
-Overall, dirent in C provides a simple and standardized way to work with directory entries in a cross-platform manner.
+In conclusion, the Linux Command Line Utilities Simulator in C Programming is a valuable tool for those who wish to learn or practice using Linux commands. With this simulator, users can experiment with different commands and options without the risk of damaging their own system. The implementation of the "ls" command in this lab report demonstrates the functionality and potential of the simulator. As a teaching tool, the simulator can aid educators in providing hands-on learning experiences for students in computer science or information technology courses. Overall, the Linux Command Line Utilities Simulator in C Programming is a useful resource for individuals who wish to improve their Linux command line skills.
 
 \end{document}

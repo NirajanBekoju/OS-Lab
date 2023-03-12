@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  1 MAR 2023 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  8 MAR 2023 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.tex"
-(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.tex
+**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_3/lab_report_3.tex"
+(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_3/lab_report_3.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -103,53 +103,115 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen157
 \c@IEEEbiography=\count181
 \@IEEEtranrubishbin=\box46
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count182
+\mult@box=\box47
+\multicol@leftmargin=\dimen158
+\c@unbalance=\count183
+\c@collectmore=\count184
+\doublecol@number=\count185
+\multicoltolerance=\count186
+\multicolpretolerance=\count187
+\full@width=\dimen159
+\page@free=\dimen160
+\premulticols=\dimen161
+\postmulticols=\dimen162
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen163
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count188
+\c@columnbadness=\count189
+\c@finalcolumnbadness=\count190
+\last@try=\dimen164
+\multicolovershoot=\dimen165
+\multicolundershoot=\dimen166
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count191
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count182
-\l__pdf_internal_box=\box47
-) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.aux)
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box93
+) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_3/lab_report_3.aux)
 \openout1 = `lab_report_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 -- Lines per column: 58 (exact).
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 26.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 63.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 85.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.aux) ) 
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_3/lab_report_3.aux) ) 
 Here is how much of TeX's memory you used:
- 1248 strings out of 481239
- 24891 string characters out of 5920377
- 262235 words of memory out of 5000000
- 16574 multiletter control sequences out of 15000+600000
- 562894 words of font info for 79 fonts, out of 8000000 for 9000
+ 1350 strings out of 481239
+ 26395 string characters out of 5920377
+ 265821 words of memory out of 5000000
+ 16674 multiletter control sequences out of 15000+600000
+ 561066 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 27i,5n,21p,568b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_3/lab_report_3.pdf" (5 pages, 64748 bytes).
+ 27i,5n,21p,759b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_3/lab_report_3.pdf" (5 pages, 51432 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

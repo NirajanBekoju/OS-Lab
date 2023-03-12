@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  2 MAR 2023 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.8)  8 MAR 2023 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/lab_report_5.tex"
-(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/lab_report_5.tex
+**"/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/lab_report_5.tex"
+(/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/lab_report_5.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -103,6 +103,75 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen157
 \c@IEEEbiography=\count181
 \@IEEEtranrubishbin=\box46
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count182
+\mult@box=\box47
+\multicol@leftmargin=\dimen158
+\c@unbalance=\count183
+\c@collectmore=\count184
+\doublecol@number=\count185
+\multicoltolerance=\count186
+\multicolpretolerance=\count187
+\full@width=\dimen159
+\page@free=\dimen160
+\premulticols=\dimen161
+\postmulticols=\dimen162
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen163
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count188
+\c@columnbadness=\count189
+\c@finalcolumnbadness=\count190
+\last@try=\dimen164
+\multicolovershoot=\dimen165
+\multicolundershoot=\dimen166
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count191
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -119,43 +188,43 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count182
-\l__pdf_internal_box=\box47
-) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/lab_report_5.aux)
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box93
+) (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/lab_report_5.aux)
 \openout1 = `lab_report_5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 58 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count183
-\scratchdimen=\dimen160
-\scratchbox=\box48
-\nofMPsegments=\count184
-\nofMParguments=\count185
+\scratchcounter=\count193
+\scratchdimen=\dimen169
+\scratchbox=\box94
+\nofMPsegments=\count194
+\nofMParguments=\count195
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count186
-\MPscratchDim=\dimen161
-\MPnumerator=\count187
-\makeMPintoPDFobject=\count188
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen170
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
 \everyMPtoPDFconversion=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -163,44 +232,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 54.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 76.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-<search.png, id=11, 102.3825pt x 89.33376pt>
+<search.png, id=9, 102.3825pt x 89.33376pt>
 File: search.png Graphic file (type png)
 <use search.png>
-Package pdftex.def Info: search.png  used on input line 95.
+Package pdftex.def Info: search.png  used on input line 117.
 (pdftex.def)             Requested size: 153.57336pt x 134.00029pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 130.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 130.
-[2 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/search.png>] [3] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/lab_report_5.aux) ) 
+[2 </media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/search.png>] (/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/lab_report_5.aux) ) 
 Here is how much of TeX's memory you used:
- 2024 strings out of 481239
- 35437 string characters out of 5920377
- 273589 words of memory out of 5000000
- 17314 multiletter control sequences out of 15000+600000
- 562894 words of font info for 79 fonts, out of 8000000 for 9000
+ 2120 strings out of 481239
+ 36873 string characters out of 5920377
+ 278358 words of memory out of 5000000
+ 17409 multiletter control sequences out of 15000+600000
+ 561066 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,6n,25p,733b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB REPORT/Lab_5/lab_report_5.pdf" (3 pages, 64885 bytes).
+ 30i,5n,25p,843b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "/media/nirajan/cea4c185-1562-436a-bf0b-3d5b8338414e/Engineering Resources/6. Sixth/OS/OS LAB/Lab_5/lab_report_5.pdf" (2 pages, 48904 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,6 @@
               
 \documentclass[journal,onecolumn]{IEEEtran}
+\usepackage{multicol}
 \setlength{\parindent}{0pt}
 
 \ifCLASSINFOpdf
@@ -16,11 +17,31 @@
 
 \title{LAB 4 : File Management System in Operating System}
 
-\author{Nirajan~Bekoju \\ PUL076BCT039 \\ $2^{nd}$ March, 2023}
+\author{
+  \begin{multicols}{2}
+    \centering
+    Nirajan Bekoju\\
+    PUL076BCT039\\
+    076bct039.nirajan@pcampus.edu.np\\
+    \columnbreak
+    Nishant Luitel\\
+    PUL076BCT041 \\
+    076bct041.nishant@pcampus.edu.np \\
+  \end{multicols}
+  \begin{multicols}{2}
+    \centering
+    Nabin Da Shrestha\\
+    PUL076BCT037 \\
+    076bct037.nabin@pcampus.edu.np \\
+    \columnbreak
+    Prakash Chaulagain \\
+    PUL076BCT045 \\
+    076bct045.prakash@pcampus.edu.np
+  \end{multicols}
+}
 
 % The paper headers
-\markboth{LAB 4 : File Management System in Operating System}%
-{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+\markboth{LAB 4 : File Management System in Operating System}{}
 
 % make the title area
 \maketitle
@@ -162,6 +183,6 @@ In addition to basic file operations, a file management system may also provide 
 
 
 \section{Conclusion}
-In this lab, we studied file management system in OS. We implemented C program to create, read and write file. Various modes of file and file handling system of OS was explored. We studied various function in C programming for file handling like feof, FILE*, fopen, fclose, fscanf, etc.
+The implementation of a file management system in the operating system using C programming language has been successful in providing the fundamental functionalities of file creation, reading, and writing. The program allows users to create a file with a given name and extension, read data from an existing file, and write data into a file. These basic operations form the backbone of any file management system and are essential for handling data in a computer system. The implementation serves as a good starting point for developing more complex file systems that can handle larger amounts of data and provide additional features such as file deletion, file permissions, and file sharing.
 
 \end{document}
